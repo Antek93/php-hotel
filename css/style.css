@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://hotelmargherita.info/wp-content/uploads/2018/01/Camere-con-terrazza-vista-mare-Costiera-Amalfitana.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.hotel {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.hotelInfo {
+    border: 2px solid white;
+    padding: 17px;
+    text-align: center;
+    border-radius: 36%;
+    width: 229px;
+}
+
+.forms {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
